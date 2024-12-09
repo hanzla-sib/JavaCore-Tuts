@@ -1,12 +1,15 @@
 
 const removeDuplciate=(arr)=>{
-const dupArr=[];
-for(let i of arr){
-    if(!dupArr.includes(i)){
-        dupArr.push(i)
-    }
-}
-return dupArr
+// const dupArr=[];
+// for(let i of arr){
+//     if(!dupArr.includes(i)){
+//         dupArr.push(i)
+//     }
+// }
+// return dupArr
+let setNum=new Set(arr);
+return setNum;
+
 }
 
 
